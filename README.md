@@ -1,3 +1,14 @@
+## RESTful Actions
+
+Action..........................Method......Route...........Response
+====================............========....============....==================
+List all records................GET........./streams........Array of records
+Get one particular record.......GET........./streams/:id....Single record
+Create record...................POST......../streams........Single record
+Update a record-all properties..PUT........./streams/:id....Single record
+Update a record-some properties.PATCH......./streams/:id....Single record
+Delete a record.................DELETE....../streams/:id....Nothing
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
